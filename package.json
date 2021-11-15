@@ -4,14 +4,18 @@
   "description": "",
   "main": "clientApp.js",
   "scripts": {
-    "start": "node ./clientApp.js",
+    "start-client": "node ./clientApp.js",
+    "start-server": "node ./server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "web-push": "^3.4.5"
   },
   "devDependencies": {}
 }
